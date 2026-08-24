@@ -1,4 +1,5 @@
- function About() {
+import profilepic from "./profilepic.jpeg";
+function About() {
   return (
     <section className="about-section" id="about">
 
@@ -9,7 +10,7 @@
         <figure className="profile-figure">
 
           <img
-            src="/profilepic.jpeg"
+            src={profilepic}
             alt="Amrutha - Software Developer"
           />
 
